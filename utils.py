@@ -140,7 +140,7 @@ def format_forecast(data: dict, days: int, symbol: str) -> str:
   return "\n".join(output)
   
 def format_air(data: dict) -> str:
-  air_list = data.get('list', [])[0]
+  air_list = data.get('list', [])
   
   if not air_list:
     return "Air quality data unavailable."
