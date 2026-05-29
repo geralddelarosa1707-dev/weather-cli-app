@@ -1,4 +1,4 @@
 .env
 __pycache__/
 *pyc
-search_hostory.json
+search_history.json
