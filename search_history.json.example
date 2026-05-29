@@ -1,0 +1,16 @@
+[
+    {
+        "type": "WEATHER",
+        "city": "Anaheim",
+        "country": "US",
+        "timestamp": "May 05, 29 - 12:44 PM",
+        "data": "\n  Weather from Anaheim, US\n  \n  Condition: clear sky\n  Temperature: 16.16\u00b0C\n  Feels like: 15.66\u00b0C\n  Temperature min: 15.26\u00b0C\n  Temperature max: 16.92\u00b0C\n  Humidity: 70% - Humid weather.\n  Visibility: 10.0 km\n  Wind Speed: 3.09 m/s\n  \n  Sunrise: 08:43 PM\n  Sunset: 10:54 AM\n  DateTime: May 29, 2026 - 12:44 PM"
+    },
+    {
+        "type": "AIR",
+        "city": "Anaheim",
+        "country": "US",
+        "timestamp": "May 05, 29 - 02:00 PM",
+        "data": "\n  Air Quality: Fair - Air is acceptable\n  \n  PM2.5: 1.31\n  PM10: 2.54\n  CO: 114.36\n  Ozone: 88.32\n\n  DateTime: May 29, 2026 - 01:59 PM"
+    }
+]
