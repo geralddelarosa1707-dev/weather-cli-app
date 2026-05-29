@@ -1,0 +1,1 @@
+URL = "https://api.openweathermap.org"
