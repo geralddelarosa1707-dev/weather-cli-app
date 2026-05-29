@@ -1,4 +1,5 @@
 .env
 __pycache__/
-*pyc
+*.pyc
+app.log
 search_history.json
