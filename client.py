@@ -6,7 +6,10 @@ import requests
 from config import URL
 from logger import logger
 
-dotenv.load_dotenv(".env")
+base_dir = os.path.dirname(os.path.abspath(__file__))
+env_path = os.path.join(base_dir, ".env")
+
+dotenv.load_dotenv(env_path)
 API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 def handle_exceptions(error):
