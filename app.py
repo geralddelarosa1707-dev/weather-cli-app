@@ -98,8 +98,11 @@ def get_info(option, city, country, format_response):
   return info
   
 def load_searches():
+  main_base_dir = os.path.dirname(os.path.abspath(__file__))
+  main_file = os.path.join(main_base_dir, "search_history.json")
+  
   try:
-    with open("search_history.json", "r") as file:
+    with open(main_file, "r") as file:
       data = json.load(file)
       
       if not isinstance(data, list):
@@ -116,8 +119,11 @@ def load_searches():
     return []
   
 def save_searches(searches):
-  temp_file = "search_history.json.tmp"
-  main_file = "search_history.json"
+  temp_base_dir = os.path.dirname(os.path.abspath(__file__))
+  temp_file = os.path.join(temp_base_dir, "search_history.json.tmp")
+  
+  main_base_dir = os.path.dirname(os.path.abspath(__file__))
+  main_file = os.path.join(main_base_dir, "search_history.json")
   
   try:
     with open(temp_file, "w") as file:
